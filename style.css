@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+
+.app {
+    background: white;
+    min-height: 100vh;
+    padding: 25px 20px 40px 20px;
+    animation: fadeIn 0.5s ease;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .app {
+        min-height: auto;
+        width: 100%;
+        max-width: 420px;
+        border-radius: 25px;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 14px;
+    border-radius: 25px;
+    border: 2px solid #c5bfbf;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+
+button {
+    padding: 14px 18px;
+    border: none;
+    border-radius: 25px;
+    background: #581ece;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 25px;
+}
+
+li {
+    background: #e0d9d9;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    transition: 0.2s ease;
+}
+
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.delete-btn {
+    background: crimson;
+    padding: 8px 14px;
+    border-radius: 50px;
+}
