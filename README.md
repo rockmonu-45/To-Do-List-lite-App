@@ -43,10 +43,10 @@ LocalStorage API
  ┗ 📜 README.md
 
 📸 Screenshots
-<p align="center"> <img src="screenshot/todo-list-app" width="400"/> <img src="assets/screenshot2.png" width="400"/> </p>
+<p align="center"> <img src="screenshot/todo-list-app.jpg" width="400"/> </p>
 
 For mobile ratio
-<p align="center"> <img src="screenshot/todo-list-app-mobile" width="400"/> <img src="assets/screenshot2.png" width="400"/> </p>
+<p align="center"> <img src="screenshot/todo-list-app-mobile.jpg" width="400"/> <img src="assets/screenshot2.png" width="400"/> </p>
 
 🤝 Contributing
 
